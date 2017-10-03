@@ -9,12 +9,12 @@ public:
 	void SaveState();
 	void SetState(bool c);
 	std::string Display();
-	bool currentState;
-	bool prevState;
+
 	int getXPos();
 	int getYPos();
 private:
 	int xPos, yPos;
-	
+	bool currentState;
+	bool prevState;
 };
 

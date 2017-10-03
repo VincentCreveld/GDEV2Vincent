@@ -9,12 +9,12 @@ int main() {
 	float deltaTime = 0;
 	float timePassed = 0;
 	t = clock();
-	double framerate = 0.0166667;
+	double framerate = (double)1/Grid::FRAME_RATE;
 
 	grid = new Grid();
 
 
-	/*
+	///*
 	while (true) {
 		deltaTime = ((float)(clock() - t)) / CLOCKS_PER_SEC;
 		t = clock();
@@ -22,12 +22,13 @@ int main() {
 
 		if (timePassed > (framerate)) {
 			grid->GenerateNewGen();
-			system("CLS");
+			std::cout << std::flush;
 			timePassed -= (framerate);
 		}
 
-	}*/
-	grid->GenerateNewGen();
+	}
+	//*/
+	//grid->GenerateNewGen();
 	system("pause");
 	return 0;
 }

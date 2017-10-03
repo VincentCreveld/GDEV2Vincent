@@ -11,7 +11,7 @@ Cell::Cell(int xPos, int yPos, int seed)
 	this->xPos = xPos;
 	this->yPos = yPos;
 	srand(xPos + yPos + seed * 2);
-	std::cout << rand() % 2 << std::endl;
+	//std::cout << rand() % 2 << std::endl;
 	if (rand() % 2 == 1) {
 		currentState = true;
 	}
@@ -33,7 +33,7 @@ void Cell::SetState(bool c) {
 
 std::string Cell::Display() {
 	if (currentState == false) {
-		return "X";
+		return " ";
 	}
 	else {
 		return "0";
