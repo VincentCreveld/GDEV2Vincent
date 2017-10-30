@@ -1,6 +1,0 @@
-﻿  Grid.cpp
-  Cell.cpp
-c:\users\vince\documents\visual studio 2015\projects\conwaysgameoflife\conwaysgameoflife\cell.cpp(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
-  ConwaysGameOfLife.vcxproj -> C:\Users\vince\Documents\Visual Studio 2015\Projects\ConwaysGameOfLife\Debug\ConwaysGameOfLife.exe
-  ConwaysGameOfLife.vcxproj -> C:\Users\vince\Documents\Visual Studio 2015\Projects\ConwaysGameOfLife\Debug\ConwaysGameOfLife.pdb (Partial PDB)
