@@ -1,12 +1,3 @@
 ﻿  main.cpp
-  Specialization.cpp
-  Soldier.cpp
-  Shaman.cpp
-  Orc.cpp
-  NPC.cpp
-c:\users\vince\documents\visual studio 2015\projects\les7\decoratororcs\npc.cpp(12): warning C4101: 'args': unreferenced local variable
-  Farmer.cpp
-  Elf.cpp
-  Generating Code...
   DecoratorOrcs.vcxproj -> C:\Users\vince\Documents\Visual Studio 2015\Projects\Les7\Debug\DecoratorOrcs.exe
   DecoratorOrcs.vcxproj -> C:\Users\vince\Documents\Visual Studio 2015\Projects\Les7\Debug\DecoratorOrcs.pdb (Partial PDB)
