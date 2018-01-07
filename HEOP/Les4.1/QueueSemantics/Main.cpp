@@ -19,13 +19,13 @@ void SortArray(T *array, int sizeArray) {
 	}
 }
 
-//TemplateQueue<int>* intQueue = new TemplateQueue<int>(40);
+TemplateQueue<int>* intQueue = new TemplateQueue<int>(40);
 
 int main() {
 
 
 
-	/*
+	
 	intQueue->Put(10);
 	intQueue->Put(20);
 	intQueue->Put(7);
@@ -41,7 +41,7 @@ int main() {
 	std::cout << intQueue->Size() << std::endl;
 
 	std::cout << intQueue->Peek() << std::endl;
-	*/
+	
 
 	float floatArray[10] = { 1.8f, 1.685f, 2.0f, 10.267f, 10.266f, 3.45f, 3.46f, 8.32f, 1.342f, 1.7f };
 	std::string stringArray[10] = { "spagoot", "sten", "steen", "segre" "schaar", "love", "parelketting", "kat", "hond", "doggo" };
