@@ -16,6 +16,7 @@ int main(){
 	*bankRekening - tAf3;
 	*bankRekening - tAf2;
 
+	std::cout << bankRekening->getSaldo() << std::endl;
 	std::cout << *(bankRekening) << std::endl;
 
 	*bankRekening + tBij1;

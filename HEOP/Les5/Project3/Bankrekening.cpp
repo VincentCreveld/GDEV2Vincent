@@ -51,6 +51,11 @@ void Bankrekening::printQueue(std::queue<Transactie> q) const {
 	std::cout << std::endl;
 }
 
+double Bankrekening::getSaldo()
+{
+	return saldo;
+}
+
 std::ostream & operator<<(std::ostream & lhs, const Bankrekening & rekening)
 {
 	lhs << "#Bankrekening" << std::endl;

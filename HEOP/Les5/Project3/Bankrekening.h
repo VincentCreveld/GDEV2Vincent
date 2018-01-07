@@ -12,6 +12,7 @@ public:
 	friend std::ostream& operator<<(std::ostream& lhs, const Bankrekening & rekening);
 	void displayLog() const;
 	void printQueue(std::queue<Transactie> q) const;
+	double getSaldo();
 private:
 	double saldo = 0;
 	std::queue<Transactie>* transactieLog;

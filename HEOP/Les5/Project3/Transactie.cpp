@@ -13,7 +13,7 @@ void Transactie::GetDetails(){
 	else {
 		std::cout << "Afschrijving: " << "€ " << amt << std::endl;
 	}
-	std::cout << datum.day << "/" << datum.month << "/" << datum.year << "----------------------------------------------" << std::endl;
+	std::cout << datum.day << "/" << datum.month << "/" << datum.year << std::endl << "----------------------------------------------" << std::endl;
 }
 
 double Transactie::getAmt() const {
